@@ -148,5 +148,32 @@ h1, p {
 .panel p {
     color: #5d3920;
     font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
+/*video*/
+.video-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 50%;
+    height: auto;
+}
+
+.section-content {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: -10px;
+}
