@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, p {
+    margin: 0;
+}
+
+/*hero*/
+.hero-container {
+    background-color: #403d58;
+    color: #fff;
+    height: 100vh;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(91, 91, 91, 0.5), rgba(86, 86, 86, 0.5)), url("/asset/coffeeshop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: white;
+}
+
+.hero-container h1 {
+    font-size: 30px;
+}
+/*card*/
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/*content*/
+.content-container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+.content-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-text h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content-text {
+    font-size: 20px;
+    margin-left: 20%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*accordion*/
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+.accordion-container h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.accordion {
+    background-color: #ffffff;
+    color: #5d3920;
+    cursor: pointer;
+    padding: 18px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    text-align: center;
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.active, .accordion:hover {
+    background-color: #5d3920;
+    color: white; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel p {
+    color: #5d3920;
+    font-size: 20px;
+}
+
