@@ -41,6 +41,8 @@ h1, p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -126,6 +128,7 @@ h1, p {
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
+    padding-bottom: 20px;
 }
 
 .accordion {
@@ -187,20 +190,18 @@ h1, p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .section-content p {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 /*footer*/
-
-.footer-container {
-    margin-top: 200px;
-}
 
 .footer {
     display: flex;
@@ -222,12 +223,13 @@ h1, p {
     font-style: normal;
 }
 
-  /* Contact Information and Quick Links columns */
+/* Contact Information and Quick Links columns */
 .footer-column-info,
 .footer-column-links {
     flex: 1; /* Allows flexibility in sizing, taking up 1 portion */
     min-width: 150px;
 }
+
 
   /* Map column - takes up a larger portion of the footer */
 .footer-column-map-container {
