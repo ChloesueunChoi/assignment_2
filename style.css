@@ -32,6 +32,10 @@ h1, p {
     padding-top: 10%;
 }
 
+.hero-text img {
+    width: 300px;
+    height: auto;
+}
 
 .hero-container h1 {
     font-size: 30px;
@@ -159,6 +163,8 @@ h1, p {
 }
 
 .panel p {
+    padding-left: 20%;
+    padding-right: 20%;
     color: #5d3920;
     font-size: 20px;
     font-family: "Outfit", sans-serif;
