@@ -136,8 +136,8 @@ h1, p {
 }
 
 .accordion {
-    background-color: #ffffff;
-    color: #5d3920;
+    background-color: #5d3920;
+    color: white;
     cursor: pointer;
     padding: 18px 0;
     width: 150px;   
@@ -150,9 +150,16 @@ h1, p {
     display: block;
     margin-bottom: 10px;
 }
+/* 아코디언 버튼 대상으로 지정 */
+.accordion:focus {
+    /* 포커스되었을 때의 스타일 정의 */
+    outline: 2px solid rgb(240, 206, 13); 
+    /* 선택적으로 배경색 변경 가능 */
+    background-color: rgba(152, 95, 33, 0.81); /* 포커스된 상태에서 배경색 변경 */
+}
 
 .active, .accordion:hover {
-    background-color: #5d3920;
+    background-color: #a66639;
     color: white; 
 }
 
